@@ -1,0 +1,218 @@
+.div_Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.div_p_btn1,
+.div_p_btn2,
+.div_p_btn3,
+.div_p_btn4,
+.div_p_btn {
+  border: 1px solid #45454569;
+  width: 34px;
+  height: 40px;
+  background-color: white;
+  color: #00262b;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.div_p_btn1:nth-of-type(2) {
+  background-color: #00262b;
+  color: white;
+}
+
+.div_p_btn1:hover,
+.div_p_btn2:hover,
+.div_p_btn3:hover,
+.div_p_btn4:hover,
+.div_p_btn:hover {
+  background-color: rgba(143, 142, 142, 0.274);
+}
+.div_p_btn_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dropdown-check-list {
+  display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible .anchor {
+  color: #0094ff;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+}
+.try {
+  width: 200px;
+  height: fit-content;
+}
+.css-1rhbuit-multiValue {
+  color: #111;
+}
+.Select-value-label {
+  color: #111;
+}
+.div_Filters_container {
+  display: flex;
+  justify-content: center;
+  border-radius: 0 !important;
+  cursor: pointer !important;
+}
+.try2 {
+  color: red;
+}
+
+.react-select__menu-list {
+  background-color: white;
+  border: 1px solid black;
+  width: 300px;
+}
+.react-select__option:hover {
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.react-select__placeholder,
+.css-1wa3eu0-placeholder {
+  color: black !important;
+}
+.react-select__placeholder:active,
+.css-1wa3eu0-placeholder:active {
+  border: transparent !important;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+.react-select__indicator-separator,
+.css-1okebmr-indicatorSeparator {
+  width: 0;
+  height: 0;
+}
+
+.css-1eg5bh-control {
+  border: none !important;
+  background-color: teal;
+}
+.css-1eg5bh-control:focus,
+.css-1eg5bh-control:active {
+  border: none !important;
+  background-color: transparent !important;
+}
+.css-1er3ta6-control:hover {
+  border: none !important;
+}
+
+.react-select :hover {
+  background-color: transparent !important;
+}
+.react-select__indicator,
+.react-select__dropdown-indicator,
+.css-tlfecz-indicatorContainer {
+  background-color: transparent !important;
+  border: none !important;
+}
+.react-select__indicator:focus,
+.react-select__dropdown-indicator:focus,
+.css-tlfecz-indicatorContainer:focus,
+.css-2b097c-container:focus {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.react-select__control,
+.react-select__control--is-focused,
+.react-select__control--menu-is-open,
+.css-1er3ta6-control {
+  border: none !important;
+}
+.div_filter {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #002121;
+}
+.div_2nd_search {
+  align-self: flex-start;
+}
+.react-select-container {
+  margin: 2px;
+  cursor: pointer;
+}
+.div_txt {
+  margin-top: 35px;
+  margin-left: 64px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Inter;
+}
+.div_search {
+  margin-left: 50px;
+}
+.inner {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #00262b;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Inter;
+}
+.div_c_btn {
+  align-self: flex-start;
+  margin-left: 65px;
+}

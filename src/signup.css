@@ -1,0 +1,153 @@
+.Main {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 49px;
+  height: 28px;
+  position: relative;
+  left: 2%;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.line {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.Container {
+  width: 500px;
+  height: 744px;
+  position: relative;
+  left: 30%;
+  top: 20%;
+  margin-left: 15px;
+}
+.Txt {
+  color: #454545;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.new1 {
+  border-top: 1px solid #cccccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.txt2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #00262b;
+  margin-bottom: 9px;
+}
+.Placeholder {
+  border: solid 1px black;
+  padding-left: 10px;
+  width: 100%;
+  height: 44px;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  /* Firefox, Chrome, Opera */
+
+  color: #9e9e9e;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.basic_single,
+.basic_single::placeholder {
+  border: black 1px solid;
+  width: 100% !important;
+  color: black;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 500px !important;
+}
+.select__control {
+  border: none !important;
+  width: 100% !important;
+}
+.select__placeholder {
+  color: #9e9e9e !important;
+  width: 100% !important;
+}
+.txt4 {
+  margin-top: 10px;
+
+  color: #454545;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.Submit {
+  margin-top: 10px;
+  width: 166px;
+  height: 44px;
+  background-color: #d23228;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter";
+  cursor: pointer;
+}
+.Block {
+  width: 242px;
+  height: 36px;
+  background-color: black;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.apple_pic,
+.fb_pic,
+.google_pic,
+.microsoft_pic {
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.txt10 {
+  padding-top: 7px;
+  color: white;
+  font-weight: 400;
+  padding-left: 2px;
+}
+.Block2 {
+  background-color: #1877f2;
+  width: 242px;
+  height: 36px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.Block4 {
+  background-color: #2f2f2f;
+  width: 242px;
+  height: 36px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.Logo_cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.error {
+  color: red;
+}

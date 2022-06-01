@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background_image {
+  position: relative;
+  width: 270px;
+  height: 102px;
+  border-radius: 4px;
+  z-index: 1;
+}
+.foreground_image {
+  background-color: white;
+  width: 108px;
+  border-radius: 4px;
+  height: 63px;
+  z-index: 2;
+  position: absolute;
+  margin-left: 20px;
+  top: 20%;
+  box-shadow: rgba(0, 0, 0, 0.555) 0px 0px 10px 0px;
+}
+.div_imges_contianer {
+  width: 270px;
+  height: 270px;
+  position: relative;
+
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.div_title {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #454545;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.div_University {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #707070;
+  margin-left: 20px;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+.div_course {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #707070;
+  margin-left: 20px;
+  margin-bottom: 2%;
+}
+.div_imges_contianer {
+  box-shadow: rgba(0, 0, 0, 0.267) 0px 0px 10px 0px;
+}
+.div_imges_contianer:hover {
+  box-shadow: rgba(0, 0, 0, 0.746) 0px 0px 10px 0px;
+}
+.list {
+  list-style: none;
+}
